@@ -12,7 +12,8 @@ int main()
 		printf("date.c:\n");
 		while((c = fgetc(fp)) != EOF) putchar(c);
 		putchar('\n');	
-        }                                                                                else
+        } 
+        else
         {
                 printf("Subprocess1 PID: %d\n",pid);
                 pid=fork();
